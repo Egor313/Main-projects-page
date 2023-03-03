@@ -1,0 +1,329 @@
+@import url('reset.css');
+/* font-family: 'Montserrat', sans-serif; */
+
+/* !GLOBAL STYLES */
+html, body {
+	scroll-behavior: smooth;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+font-weight: 400;
+background: #D8D8D6;
+color: #161616;
+font-size: 18px;
+}
+.container {
+	max-width: 1140px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+/* !HEADER */
+.header {
+	background: #81A36B;
+	padding: 20px 0;
+}
+.flex-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	
+	/* margin-bottom: 40px; */
+}
+.header-logo {
+	/* margin-right: 120px; */
+}
+ 
+.menu {
+	display: flex;	
+}
+
+.menu a {
+	line-height: 21px;
+	text-decoration: none;
+	color: inherit;
+}
+
+.menu > li + li {
+	margin-left: 90px;
+}
+/* ____________________________________________________ */
+
+/* Amelia Flowers */
+.amelia-fl {
+	
+	
+}
+
+.flex-main-sec {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+	/* margin-bottom: 0 165px 120px 165px; */
+}
+
+.flex-main-lf {
+	margin-right: 30px;
+}
+
+.flex-main-lf .text-amelia {
+	line-height: 20px;
+	margin-bottom: 40px;
+}
+
+.flex-main-lf h1 {
+	font-size: 62px;
+	line-height: 64px;
+	margin-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.order-bt {
+	font-family: 'Roboto', sans-serif;
+	background: #81A36B;
+	padding: 20px 30px;
+	margin-right: 65px;
+	font-size: 18px;
+	line-height: 21px;
+	cursor: pointer;
+	border: 1px solid #81A36B;
+	border-radius: 4px;
+    
+}
+.flex-main-lf a {
+	padding: 20px 16px;
+	font-size: 18px;
+	line-height: 21px;
+	text-decoration: none;
+	display: inline-block;
+	border: 1px solid #81A36B;
+	border-radius: 4px;
+    background: transparent;
+	color: inherit;
+}
+
+
+.main-img {
+	/* max-width: 540px;
+	min-width: 540px;
+	max-height: 670px;
+	min-height: 670px; */
+	height: 670px;
+	flex: 0 0 540px;
+}
+
+.main-img img {
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.about_us {
+	background: #D8D8D6;
+	padding: 120px 0;
+
+}
+
+.about_us h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	line-height: 34px;
+	text-align: center;
+	margin-bottom: 60px;
+	
+}
+
+.about_us .text-about {
+	
+	width: 540px;
+	line-height: 20px;
+	text-align: center;
+	margin: 0 auto;
+	
+}
+/* ____________________________________________________________ */
+
+
+
+/* *TODO: PRICE */
+.price {
+	background: #81A36B;
+	padding: 80px 0;
+}
+.price-box {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.price-text {
+
+}
+
+.content-img {
+	text-align: center;
+	margin-bottom: 20px;
+
+}
+/* _____________________________________________________________ */
+
+	
+/* !How we work */
+
+.how_work {
+	background: #D8D8D6;
+	padding: 120px 0 60px;
+}
+
+.flex-bottom {
+	display: flex;
+	align-items: center;
+
+}
+
+.flex-main-rt {
+	flex: 1 1 50%;
+	margin-left: 30px;
+	
+}
+
+.flex-main-rt .text-how_work  {
+	line-height: 20px;
+	text-align: center;
+}
+
+.flex-main-rt h2 {
+	text-align: center;
+	font-size: 32px;
+	line-height: 34px;
+	margin-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+	
+}
+
+.second-img {
+
+
+	/* width: 100%;
+    height: 100%; */
+	/* object-fit: cover; */
+}
+
+.second-img img {
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* _______________________________________________ */
+
+/* !Our works */
+
+.our-works-bg {
+	padding: 60px 0 120px;
+	background: #D8D8D6;
+}
+
+.our-works {
+	display: flex;
+	gap: 30px;
+	/* justify-content: space-between; */
+	/* flex-direction: row; */
+}
+
+.work-text {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 32px;
+	line-height: 34px;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.card {
+background: #81A36B;
+padding: 15px;
+flex: 1 1 33%;
+
+}
+
+.card-text {
+text-align: center;
+padding: 23px 0 40px 0;
+}
+
+.flower-card {
+
+}
+
+.works-img {
+	display: block;
+	margin-bottom: 15px;
+	height: 400px;
+
+}
+.works-img img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.works-img a {
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+
+
+
+/* !FOOTER */
+.footer {
+	background: #81A36B;
+	padding: 60px 0;
+}
+
+.flex-conteiner {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 40px;
+}
+
+.flex-conteiner h3 {
+	font-size: 25px;
+	line-height: 26px;
+	margin-bottom: 40px;
+}
+
+.footer-contact a {
+	color: #161616;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.footer-contact ul > li + li {
+	margin-top: 20px;
+}
+/* .footer-contact ul > li:last-child {
+	margin-bottom: 0;
+} */
+
+.footer-social h3 {
+	margin-bottom: 40px;
+}
+
+.social-icons {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer-year {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	text-align: center;
+}

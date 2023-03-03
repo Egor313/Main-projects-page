@@ -1,0 +1,223 @@
+@import url('reset.css');
+
+.wrapper-cards {
+    background: lightcyan;
+}
+
+/* Header */
+.header-cards {
+    background: #242424;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.header-cards .container-cards {
+    font-size: 0;
+}
+
+.logo-cards, .menu-cards, .search-cards {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.logo-cards, .search-cards {
+    width: 100px;
+}
+
+.logo-cards a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-cards {
+    font-size: 0;
+    width: 1000px;
+    text-align: center;
+}
+.menu-cards li {
+display: inline-block;
+font-size: 16px;
+}
+
+.menu-cards li + li {
+    margin-left: 30px;
+}
+
+.menu-cards li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-cards li a.active-cards {
+    color: red;
+}
+
+.search-cards button {
+    width: 100px;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background: transparent;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ________________________________________________________ */
+
+/* Footer */
+
+.footer-inline {
+    padding: 20px 0;
+    background: #242424;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* ________________________________________________________ */
+
+.container-cards {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.box-cards {
+}
+
+.child-inline {
+    width: 300px;
+    background: red;
+    font-size: 20px;
+    float: left;
+}
+
+.child-inline {
+    padding: 20px;
+}
+
+.child-card-inline {
+    border: 2px solid gray;
+    background: lightblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.child-inline + div {
+    background: blue;
+}
+
+.child-inline + div + div {
+    background: pink;
+}
+
+.child-inline + div + div + div {
+    background: yellow;
+}
+
+/* Homework_6 */
+
+.title-card-h1 {
+    color: darkorange; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.title-card-h1  > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.title-card {
+    color: darkmagenta;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title-card a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.down-title-card {
+    color: darkmagenta;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.card-inline {
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.card-inline {
+    padding: 20px;
+}
+
+.tour-cards {
+    border: 2px solid darkorange;
+    background: lightpink;
+    color: purple;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 6px -3px 10px 4px rgb(171, 167, 167);
+}
+
+.text-cards {
+    height: 150px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: justify;
+    margin: 0 10px 10px 10px;
+
+}
+
+p + p {
+    margin-top: 10px;
+}
+
+.clearfix-crd::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+
+/* Image */
+
+.image-card {
+    display: block;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.image-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* _____________________________________- */
+
+/* ______________________________________________________ */

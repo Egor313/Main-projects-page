@@ -1,0 +1,886 @@
+@import url('reset.css');
+
+
+html, body {
+    scroll-behavior: smooth;
+}
+
+
+
+/* _____________________Header_________________________________________ */
+
+.wrapper-startpage {
+  background: lightcyan;
+}
+
+.header-startpage {
+    background: #242424;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.container-startpage {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.menu-startpage {
+    display: flex;
+	justify-content: center;
+    font-size: 20px;
+    gap: 50px;
+}
+
+.menu-startpage a {
+    color: #fff;
+	display: block;
+	text-decoration: none;
+	padding: 10px 25px;
+}
+
+.menu-startpag > li {
+    text-transform: uppercase;
+	position: relative;
+}
+
+
+.menu-startpage li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu-startpage a.active-cards {
+    color: red;
+}
+
+.menu-startpage > li:hover .second-ul {
+	display: block;
+	
+}
+
+.second-ul {
+	padding: 25px 0 0;
+	position: absolute;
+	top: 100%;
+	left: 57%;
+	z-index: 1;
+	display: none;
+
+}
+
+.second-ul > li {
+	background: #242424;
+    text-align: center;
+}
+
+
+.second-ul > li:hover .third-ul {
+    display: block;
+}
+
+.third-ul {
+    padding-right: 5px;
+	position: absolute;
+	top: 100%;
+    margin-top: -40px;
+	right: 100%;
+	z-index: 1;
+	display: none;
+
+}
+
+.third-ul > li {
+	background: #242424;
+    text-align: center;
+}
+
+
+/* _______________________________________________________________ */
+
+
+
+
+
+
+/* ____________________Main-section_______________________________ */
+
+
+.title-pg {
+
+}
+
+.flex-main-sec {
+	display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+}
+
+.flex-main-lf {
+	margin-right: 30px;
+    text-align: center;
+}
+
+.flex-main-lf .text-start {
+	line-height: 20px;
+	margin-bottom: 40px;
+    font-size: 22px;
+
+
+}
+
+.flex-main-lf h1 {
+	font-size: 60px;
+	line-height: 62px;
+	margin-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.main-img {
+	height: 670px;
+	flex: 0 0 540px;
+}
+
+.main-img img {
+	object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+/* _________________________________________________________________ */
+
+
+/* Footer */
+.footer-startpage {
+
+    padding: 20px 0;
+    background: #242424;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* __________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ___________Lesson-3_Boxing(2 pages)_______________ */
+ 
+html, body {
+    scroll-behavior: smooth;
+}
+
+.back-bx-2 {
+    background: lightgray
+}
+
+.wrapper-boxing-home{
+    width: 1200px;
+    border: 3px solid darkred;
+    margin: 0 auto;
+    padding-top: 110px;
+    background: url('../images/title_1.jpg');
+}
+
+.wrapper-boxing-home > div {
+}
+
+.center-bx-1 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.block-box {
+    background: white; 
+    padding-top: 30px; 
+    padding-left: 70px;
+}
+
+.title-box_1 {
+    color: darkgray; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title-secpg-bx {
+    padding: 10px 0 30px 0;
+    color: darkslategray;
+    
+}
+
+.title_second-boxing {
+    color: darkred;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.color-bx-1 {
+    color: darkblue;
+    font-size: 25px;
+    margin: 30px 0;
+}
+
+
+.text_blocks-box-1 {
+    color: grey; 
+    font-weight: bold;
+    border: 3px solid darkred;
+}
+
+.text_blocks-box-1 + div {
+    margin-top: 50px;
+}
+
+.photo-border-box-1 {
+    border: 3px solid darkred;
+    padding: 20px;
+} 
+
+
+
+/* First block */
+.header-bx-page {
+    margin-right: 30px
+}
+
+Second block
+.body-box-1 {
+    margin-top: 50px; 
+    margin-right: 30px; 
+    padding-bottom: 50px
+}
+
+.body-box-1 .text_blocks {
+    border: 3px solid darkblue;
+}
+
+/* ---------Second Page----------- */
+
+.container-box-2{
+	max-width: 1140px;
+	padding: 50px 0;
+	margin: 0 auto;
+	position: relative;
+    background: whitesmoke;
+}
+
+.backstyle_sec_box {
+    background: white;
+    width: 1000px;
+    margin: 0 auto;
+    border: 1px solid darkred;
+}
+
+.title_secondp_pg-bx {
+    margin-top: 30px
+}
+
+.blockstyle-box-2 {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0;
+       
+}
+
+.blockstyle-box-2 a {
+display: block;
+}
+
+.blockstyle-box-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text-boxing {
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    margin-top: 30px;
+    font-size: 20px;
+    color: lime;
+    display: none;
+    
+}
+
+.blockstyle-box-2:hover .text-boxing {
+    display: block;
+    text-align: center;
+}
+
+
+.blockstyle-box-2 + .blockstyle-box-2 {
+    margin-top: 40px;
+}
+
+.popup-boxing {
+    position: fixed;
+    background: lightgray;
+    width: 300px;
+    height: 250px;
+    margin-top: -125px;
+    top: 50%;
+    left: 0;
+}
+
+.navi-bx-2 li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    background: lightcyan;
+    border: 2px solid lightskyblue;
+    font-size: 20px;
+    font-weight: 24px;
+    color: darkslateblue;
+}
+
+.navi-bx-2 li::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    margin-left: 4px;
+    left: 0;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: darkblue;
+
+}
+
+.navi-bx-2 > li > a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* ________________________________________________________________________ */
+
+
+/* _______________________Less-4_Table_____________________________________ */
+
+
+/* Global */
+
+.wrapper-table {
+    width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+
+table, th, td {
+    border: 2px solid #000;
+}
+
+table td {
+    width: 50px;
+    height: 50px;
+}
+
+.main-table {
+    margin-top: 50px;
+}
+
+
+.mosonry td {
+    width: 150px;
+    height: 100px;
+
+}
+
+.link-table {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+.mos td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+  
+}
+
+.mosonry tr {
+    background: grey;
+}
+
+/* __________________________________________________________________________ */
+
+
+
+
+
+/* ___________________Less-7_Floats__________________________________________ */
+
+.wrapper-float {
+    background: lightcyan ;
+}
+
+.header-float {
+    background: #242424;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.header-float a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+/* _____________________________________________ */
+
+
+
+.container-float {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.parent-float {
+
+    font-size: 0;
+
+}
+
+.child-float {
+
+    display: inline-block;
+    width: 400px;
+    height: 200px;
+    vertical-align: top;
+    overflow: hidden;
+    outline: 1px solid #242424;
+    font-size: 20px;
+    background: yellow;
+    
+
+}
+
+.child-float-2 {
+    height: 100px;
+    vertical-align: top;
+    overflow: hidden;
+    outline: 1px solid #242424;
+    font-size: 20px;
+    background: blue;
+}
+
+
+ .child-float > .child-float-second {
+    display: inline-block;
+    outline: 1px solid #242424;
+    font-size: 20px;
+    background: blue;
+    height: 66px;
+}
+
+.child-float-3 {
+    height: 100px;
+    vertical-align: top;
+    overflow: hidden;
+    outline: 1px solid #242424;
+    font-size: 20px;
+    background: darkred;
+}
+.child-third {
+    background: darkred;
+    height: 200px;
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.box-two-float > div + div {
+    width: 800px;
+}
+
+.third-box-float > div {
+    width: 800px;
+
+}
+
+.third-box-float > div + div {
+    width: 400px;
+}
+
+.center-float {
+    color: darkviolet;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.center-float a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+/* Lesson-7 */
+
+/* .float {
+    background: lightblue;
+    padding: 50px 0; 
+} */
+
+.floa-a {
+    background: lawngreen;
+    width: 400px;
+    height: 400px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+.main-cont-b {
+    width: 800px;
+    float: left;
+   
+}
+
+.floa-b {
+    background: orange;
+    height: 200px;
+    outline: 1px solid grey;
+    /* float: left; */
+}
+
+.main-cont-b-rg {
+    width: 400px;
+    float: left;
+}
+
+.floa-b-rg {
+    background: darkturquoise;
+    height: 133.5px;
+    outline: 1px solid grey;
+    /* float: right; */
+}
+
+.floa-c {
+    background: lightcoral;
+    width: 400px;
+    height: 400px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+.floa-c-sec {
+    background: darkblue;
+    width: 800px;
+    height: 200px;
+    outline: 1px solid grey;
+    float: left;
+    
+}
+
+.floa-c-third {
+    background: darkmagenta;
+    width: 400px;
+    height: 200px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+ .floa-third {
+    background: yellow;
+    width: 400px;
+    height: 100px;
+    outline: 1px solid grey;
+    float: left;
+}
+
+
+.clearfix::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+
+
+
+/* __________________________________________________________________*/
+
+
+
+/* ____________________________Less-6_Cards__________________________________ */
+
+
+.wrapper-cards {
+    background: lightcyan;
+}
+
+/* Header */
+.header-cards {
+    background: #242424;
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.header-cards .container-cards {
+    font-size: 0;
+}
+
+.logo-cards, .menu-cards, .search-cards {
+    font-size: 16px;
+    display: inline-block;
+}
+
+.logo-cards, .search-cards {
+    width: 100px;
+}
+
+.logo-cards a {
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+}
+
+.menu-cards {
+    font-size: 0;
+    width: 1000px;
+    text-align: center;
+}
+.menu-cards li {
+display: inline-block;
+font-size: 16px;
+}
+
+.menu-cards li + li {
+    margin-left: 30px;
+}
+
+.menu-cards li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-cards li a.active-cards {
+    color: red;
+}
+
+.search-cards button {
+    width: 100px;
+    color: #fff;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    background: transparent;
+    
+}
+
+button {
+    cursor: pointer;
+}
+
+
+/* ________________________________________________________ */
+
+/* Footer */
+
+.footer-inline {
+    padding: 20px 0;
+    background: #242424;
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+
+/* ________________________________________________________ */
+
+.container-cards {
+    width: 1200px;
+    margin: 0 auto;
+
+}
+
+.box-cards {
+}
+
+.child-inline {
+    width: 300px;
+    background: red;
+    font-size: 20px;
+    float: left;
+}
+
+.child-inline {
+    padding: 20px;
+}
+
+.child-card-inline {
+    border: 2px solid gray;
+    background: lightblue;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.child-inline + div {
+    background: blue;
+}
+
+.child-inline + div + div {
+    background: pink;
+}
+
+.child-inline + div + div + div {
+    background: yellow;
+}
+
+/* Homework_6 */
+
+.title-card-h1 {
+    color: darkorange; 
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.title-card-h1  > p {
+    font-size: 15px;
+    font-weight: 400;
+    margin: 10px 0 20px 0;
+    text-transform: uppercase;
+}
+
+.title-card {
+    color: darkmagenta;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.title-card a {
+    color: inherit;
+    text-decoration: none;
+
+}
+
+.down-title-card {
+    color: darkmagenta;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.card-inline {
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+    float: left;
+}
+
+.card-inline {
+    padding: 20px;
+}
+
+.tour-cards {
+    border: 2px solid darkorange;
+    background: lightpink;
+    color: purple;
+    border-radius: 4px;
+    padding: 5px;
+    box-shadow: 6px -3px 10px 4px rgb(171, 167, 167);
+}
+
+.text-cards {
+    height: 150px;
+    font-size: 16px;
+    overflow: hidden;
+    text-align: justify;
+    margin: 0 10px 10px 10px;
+
+}
+
+p + p {
+    margin-top: 10px;
+}
+
+.clearfix-crd::after {
+    content: " ";
+    clear: both;
+    display: block;
+}
+
+
+/* Image */
+
+.image-card {
+    display: block;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.image-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* _______________________________ */
+
+/* _________________________________________________________________________ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
