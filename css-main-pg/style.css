@@ -170,6 +170,19 @@ body {
     margin-top: 50px;
 }
 
+.hidden {
+    width: 0;
+    height: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.icon {
+
+}
+
+
+
 /* __________________________________________________________________ */
 
 
