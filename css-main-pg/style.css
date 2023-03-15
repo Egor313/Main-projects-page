@@ -22,7 +22,7 @@ body {
     display: flex;
     flex-flow: column;
     height: 100%;
-    overflow: auto;
+    overflow: hidden auto;
 }
 
 .title-pg {
@@ -56,16 +56,26 @@ body {
     margin: 0 10px 0 10px;
 }
 
+.homeworks {
+    padding: 10px 45px 10px 25px;
+    
+}
 
 
 .menu-startpage a {
     color: #fff;
-	display: flex;
-    align-items: center;
+	display: block;
 	text-decoration: none;
-	padding: 10px 25px;
+	padding: 10px 25px 10px 45px;
     
 }
+
+.menu-startpage .homeworks {
+    padding: 10px 45px 10px 25px;
+}
+
+
+
 
 .menu-startpage > li {
     font-family: 'Ubuntu';
@@ -121,7 +131,7 @@ body {
 .second-ul > li:hover .third-ul {
     /* display: block; */
     top: 0;
-    right: 0;
+    right: 100%;
 }
 
 .second-ul svg {
@@ -140,24 +150,75 @@ body {
 	right: -800%;
 	z-index: 1;
     transition: all 1s cubic-bezier(.15,.26,.65,1.14);
-	/* display: none; */
+	
    
 }
 
 .third-ul > li {
 	background: #242424;
     text-align: center;
+    padding-right: 20px;
 }
 
 .third-ul > li:hover a {
     color: aqua;
 }
 
+/* .third-ul a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    margin-right: 20px;
+
+}
+
+.third-ul > a::before,
+.third-ul > a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+    background: #fff;
+    transition: all 1s linear;
+}
+
+.third-ul > a::after {
+    top: auto;
+    bottom: 0;
+    left: auto;
+    right: 0;
+}
+
+.third-ul > a:hover::before, .third-ul > a:hover::after {
+    height: 100%;
+} 
+ */
+
+
 
 .header-icon {
     width: 30px;
     height: 30px;
     fill: azure;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -15px;
+}
+
+.header-icon-last {
+    width: 30px;
+    height: 30px;
+    fill: azure;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -15px;
 }
 
 /* _______________________________________________________________ */
