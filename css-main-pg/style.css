@@ -303,11 +303,11 @@ body {
 
 .footer-startpage {
 
-    padding: 20px 0;
+    padding: 40px 0;
     background: #242424;
     text-align: center;
     color: #fff;
-    margin-top: 50px;
+    margin-top: 20px;
        
 }
 
@@ -319,30 +319,27 @@ body {
 }
 
 .icon-list {
-    font-size: 0;
+
 }
 
 .icon-list li {
-    display: inline-block;
-    font-size: 14px;
-    
-     
+    display: block;
+   border: 1px solid red;
 }
 
-.icon-list li + li {
+/* .icon-list li + li {
     margin-left: 20px;
-}
+} */
 
 .icon-list a {
     text-decoration: none;
     color: #fff;
-    display: block;
-    position: relative;
-    padding: 10px;
+    display: inline-block;
+  
 }
-.icon-list span {
+/* .icon-list span {
     padding-left: 10px;
-}
+} */
 
 .icon-list svg {
     width: 50px;
@@ -350,7 +347,7 @@ body {
     fill: azure;
     
 }
-
+/* 
 .footer-icon {
     position: absolute;
     top: 0;
@@ -359,9 +356,43 @@ body {
 
 .footer-list > li a {
     padding: 17px 0 17px 45px;
+} */
+
+
+.social-media {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, red 40%, yellow);
+    position: fixed;
+    bottom: 0;
+    right: 20%;
+
+}
+.social-media > h2 {
+    text-align: center;
+    font-size: 26px;
+    font-weight: 700;
+    color: darkred;
+    padding: 40px 0;
 }
 
+.social-media:hover .hover-footer {
+    /* transform: translate(0 , 33%); */
+    bottom: 0;
+    right: 33%;
+    display: block;
+    
+}
 
+.hover-footer {
+    display: flex;
+    width: 400px;
+    height: 200px;
+    background: lightblue;
+    position: fixed;
+    bottom: -100%;
+    right: -333%;
+}
 
 
 /* .footer-icon {
