@@ -322,18 +322,26 @@ body {
 
 }
 
-.icon-list li {
+
+
+
+
+.icon-list li a {
     display: block;
    border: 1px solid red;
-   margin: 10px;
+   margin: 13px;
    transform: rotate(45deg);
    
 
 }
 
-/* .icon-list li + li {
-    margin-left: 20px;
-} */
+.icon-list svg {
+    width: 70px;
+    height: 70px;
+    fill: azure;
+    transform: rotate(-45deg);
+    
+}
 
 .icon-list a {
     text-decoration: none;
@@ -341,17 +349,7 @@ body {
     display: inline-block;
   
 }
-/* .icon-list span {
-    padding-left: 10px;
-} */
 
-.icon-list svg {
-    width: 60px;
-    height: 60px;
-    fill: azure;
-    transform: rotate(-45deg);
-    
-}
 
 .social-media {
     width: 200px;
@@ -382,6 +380,7 @@ body {
     font-size: 26px;
     font-weight: 700;
     color: orangered;
+    margin-bottom: 25px;
 }
 
 .hover-footer {
@@ -407,12 +406,12 @@ body {
 
 }
 
-/* .icon-list {
-    display: flex;
-    justify-content: center;
+.footer-icon {
+    display: block;
     gap: 40px;
 
-} */
+
+}
 
 /* __________________________________________________________________ */
 
