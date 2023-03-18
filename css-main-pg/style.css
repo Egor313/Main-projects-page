@@ -328,7 +328,7 @@ body {
 
 .icon-list li a {
     display: block;
-   border: 1px solid red;
+   border: 2px solid rgb(141, 24, 6);
    margin: 13px;
    transform: rotate(45deg);
    
@@ -342,7 +342,7 @@ body {
 .icon-list svg {
     width: 70px;
     height: 70px;
-    fill: azure;
+    fill: rgb(254, 247, 55);
     transform: rotate(-45deg);
     
 }
@@ -356,48 +356,49 @@ body {
 
 
 .social-media {
-    width: 200px;
-    height: 100px;
-    background: linear-gradient(to right, red 40%, yellow);
+    width: 400px;
+    height: 90px;
+    background: linear-gradient(to right, red 20%, yellow);
     position: fixed;
     bottom: 0;
-    right: 20%;
+    right: 10%;
 
 }
 .social-media > h2 {
     text-align: center;
-    font-size: 26px;
+    font-size: 30px;
     font-weight: 700;
-    color: darkred;
-    padding: 40px 0;
+    color: rgba(100, 26, 1, 0.727);
+    padding: 30px 0;
 }
 
 
 .social-media:hover .hover-footer {
     /* transform: translate(0 , 33%); */
     bottom: 0;
-    right: 100%;
+    right: 0;
     display: block;
-    margin: 0 10px;
-    transition: all 1s cubic-bezier(.15,.26,.65,1.14);
+    transition: all 1.2s;
+    /* transform: scaleY(1); */
     
 }
 .title-social {
+    
     text-align: center;
-    font-size: 26px;
+    font-size: 35px;
     font-weight: 700;
-    color: orangered;
-    margin: 10px 0 10px 0;
+    color: rgba(100, 26, 1, 0.727);
+    margin: 20px 0 40px;
 }
 
 .hover-footer {
     /* display: flex; */
     width: 400px;
-    height: 250px;
-    background: linear-gradient(orange 40%, lime);
+    height: 350px;
+    background: linear-gradient(to right, red 20%, yellow);
     position: absolute;
-    bottom: -1000%;
-    right: -333%;
+    bottom: -500%;
+    right: 0;
     font-size: 0;
 }
 
