@@ -335,6 +335,10 @@ body {
 
 }
 
+/* .icon-list:hover a {
+    background-color: aqua;
+} */
+
 .icon-list svg {
     width: 70px;
     height: 70px;
@@ -368,11 +372,14 @@ body {
     padding: 40px 0;
 }
 
+
 .social-media:hover .hover-footer {
     /* transform: translate(0 , 33%); */
     bottom: 0;
-    right: 33%;
+    right: 100%;
     display: block;
+    margin: 0 10px;
+    transition: all 1s cubic-bezier(.15,.26,.65,1.14);
     
 }
 .title-social {
@@ -380,7 +387,7 @@ body {
     font-size: 26px;
     font-weight: 700;
     color: orangered;
-    margin-bottom: 25px;
+    margin: 10px 0 10px 0;
 }
 
 .hover-footer {
@@ -388,8 +395,8 @@ body {
     width: 400px;
     height: 250px;
     background: linear-gradient(orange 40%, lime);
-    position: fixed;
-    bottom: -100%;
+    position: absolute;
+    bottom: -1000%;
     right: -333%;
     font-size: 0;
 }
@@ -412,6 +419,8 @@ body {
 
 
 }
+
+
 
 /* __________________________________________________________________ */
 
