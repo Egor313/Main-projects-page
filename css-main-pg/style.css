@@ -37,12 +37,7 @@ body {
     
 }
 
-.container-startpage {
-    max-width: 1200px;
-    margin: 0 auto;
 
-    
-}
 
 .menu-startpage {
 
@@ -130,7 +125,7 @@ body {
 
 
 .second-ul > li:hover .third-ul {
-    /* display: block; */
+    display: block;
     transform: translateX(0);
 }
 
@@ -197,8 +192,8 @@ body {
 
 .third-ul > a:hover::before, .third-ul > a:hover::after {
     height: 100%;
-} 
- */
+}  */
+
 
 
 
@@ -311,12 +306,49 @@ body {
       
 }
 
-.hidden {
+.container-startpage {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    
+}
+
+.marque {
+    position: relative;
+    font-size: 20px;
+    background: radial-gradient(circle at 7.81% 53.69%, #9abc73 0, #8fbf7a 3.57%, #83c081 7.14%, #77c28a 10.71%, #6ac393 14.29%, #5dc49c 17.86%, #4ec5a6 21.43%, #3ec6b0 25%, #2bc6ba 28.57%, #11c6c4 32.14%, #00c5cd 35.71%, #00c5d6 39.29%, #00c4df 42.86%, #00c3e6 46.43%, #0cc1ed 50%, #2dbff3 53.57%, #44bdf7 57.14%, #58bbfa 60.71%, #6bb8fc 64.29%, #7db5fc 67.86%, #8db1fc 71.43%, #9daef9 75%, #acaaf6 78.57%, #b9a7f1 82.14%, #c6a3ec 85.71%, #d1a0e5 89.29%, #db9ddd 92.86%, #e49ad5 96.43%, #eb97cc 100%);
+    height: 40px;
+}
+
+.content {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    color: darkblue;
+    white-space: nowrap;
+    margin: 0 auto;
+    animation: marque 10s linear infinite;
+}
+
+.content + .content {
+    left: 1530px;
+}
+
+@keyframes marque {
+    to {
+        transform: translate(0, 0);
+    }
+    from {
+        transform: translate(-1530px, 0);
+    }
+}
+
+/* .hidden {
     width: 0;
     height: 0;
     position: absolute;
     z-index: -1;
-}
+} */
 
 /* 
 .icon-list li a {
@@ -357,15 +389,26 @@ body {
     right: 50px;
     transition: transform .4s linear;
     transform: translateY(calc(100% - 50px));
+    animation: hover .2s linear infinite;
 }
 
 .hover-footer:hover {
     transform: translate(0);
+    animation: none;
 }
+
+@keyframes hover {
+    0% {bottom: 0;}
+    
+    100% {
+      bottom: 12px;
+    }
+  }
+    
 
 .title-social {
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     background: radial-gradient(blue, red);
     font-weight: 900;
     font-size: 30px;
@@ -406,10 +449,8 @@ body {
 
 .footer-list li a:hover {
     transform: scale(1.2) rotateZ(360deg);
-    
+    background-color: rgba(116, 193, 240, 0.5);
 }
-
-
 
 
 
